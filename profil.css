@@ -1,0 +1,159 @@
+/* Importation de la police avec différentes épaisseurs */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Styles généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 40px;
+    margin: 50px auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    color: #34495e;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+nav {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2980b9;
+}
+
+/* Styles des posts */
+.post {
+    border-bottom: 1px solid #ecf0f1;
+    padding: 25px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header strong {
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.post-content p {
+    margin: 15px 0;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.post-actions {
+    text-align: right;
+}
+
+.post-actions a {
+    margin-left: 15px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.post-actions a:hover {
+    color: #2980b9;
+}
+
+/* Bouton de suppression de compte */
+form input[type="submit"] {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #c0392b;
+}
+
+form input[type="submit"]:active {
+    background-color: #96281b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .post-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-actions {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+        padding: 14px 0;
+        font-size: 16px;
+    }
+}
