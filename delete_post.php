@@ -29,4 +29,5 @@ $stmt->execute(['id' => $post_id]);
 
 header('Location: posts.php');
 exit();
+
 ?>

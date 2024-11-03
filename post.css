@@ -57,7 +57,7 @@ nav a:hover {
     text-align: center;
 }
 
-/* Formulaire de nouveau post */
+
 form {
     margin-bottom: 40px;
 }
@@ -186,4 +186,5 @@ input[type="submit"]:active {
         margin: 0 10px;
         font-size: 14px;
     }
+    
 }

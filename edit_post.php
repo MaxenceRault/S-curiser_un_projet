@@ -48,5 +48,7 @@ if (!isset($_SESSION['csrf_token'])) {
         </form>
         <p><a href="posts.php">Retour</a></p>
     </div>
+    
 </body>
+
 </html>

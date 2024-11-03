@@ -108,4 +108,5 @@ $users = $stmt->fetchAll();
         </table>
     </div>
 </body>
+
 </html>

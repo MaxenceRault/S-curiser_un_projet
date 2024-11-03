@@ -97,4 +97,5 @@ if ($action === 'create') {
 $_SESSION['errors'] = $errors;
 header('Location: posts.php');
 exit();
+
 ?>

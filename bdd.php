@@ -15,4 +15,5 @@ try {
     error_log($e->getMessage());
     die('Une erreur est survenue. Veuillez réessayer plus tard.');
 }
+
 ?>

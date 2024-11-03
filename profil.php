@@ -82,4 +82,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_account'])) {
         </form>
     </div>
 </body>
+
 </html>

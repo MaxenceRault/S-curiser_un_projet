@@ -78,4 +78,5 @@ $posts = $stmt->fetchAll();
         <?php unset($_SESSION['post_success2']); ?>
     <?php endif; ?>
 </body>
+
 </html>
