@@ -2,7 +2,7 @@
 
 # Sécuriser un projet web 
 
-# Si il ya un problème , n'hésitez pas à m'envoyer un mail sur : maxence.rault@edu.devinci.fr 
+# Si il y'a un problème , n'hésitez pas à m'envoyer un mail sur : maxence.rault@edu.devinci.fr 
 
 # Commande pour sql si vous n'importez pas ma table qui est dans le dossier ( secur.sql ): 
 
